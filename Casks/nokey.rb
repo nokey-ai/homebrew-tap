@@ -6,25 +6,25 @@ cask "nokey" do
     end
   end
 
-  version "0.11.2"
+  version "0.11.3"
 
   on_macos do
     on_arm do
-      sha256 "cb3c30b9ab85c7f9765a8a86097e7438b527bbeda344b0bb6c715853f52a911f"
+      sha256 "39b0459142695e49ee7ec9407688859a02966386a97c9cce845a792503d04ef8"
       url "https://github.com/nokey-ai/nokey/releases/download/v#{version}/nokey_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "40e7cdc7e5e7a8547a684f97d4162b053f19cb71d63078ba727ddf57d3de6fc8"
+      sha256 "f6bc464fae44ad46266516f3b7b2311b5206361ccc22546918b62cce4d9b7a7e"
       url "https://github.com/nokey-ai/nokey/releases/download/v#{version}/nokey_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "6ee988a864d0dee1bc5cea8db9b2c8f0b377c118ceae136ebc018e983dd273fa"
+      sha256 "50c33267134df651d5ab17a53ca3c5a795ed3df9b00b84bfc715846984cf26c9"
       url "https://github.com/nokey-ai/nokey/releases/download/v#{version}/nokey_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "e3195e9e9bb14af907139d19234f5b219d2c8e505106b638ecc017c1061c3fa3"
+      sha256 "29ca0d6c729e8196eb0153f1fd5f1e9859ef7fa307d54af40ab27d000441b95c"
       url "https://github.com/nokey-ai/nokey/releases/download/v#{version}/nokey_#{version}_linux_amd64.tar.gz"
     end
   end
